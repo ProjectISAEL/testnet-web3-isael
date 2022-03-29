@@ -19,23 +19,23 @@ export const zone = [
 
 export const mob = [
   {
-    num: 0,
+    num: 1,
     label: 'Mob Nmr. 1'
   },
   {
-    num: 1,
+    num: 2,
     label: 'Mob Nmr. 2'
   },
   {
-    num: 2,
+    num: 3,
     label: 'Mob Nmr. 3'
   },
   {
-    num: 3,
+    num: 4,
     label: 'Mob Nmr. 4'
   },
   {
-    num: 4,
+    num: 5,
     label: 'Mob Nmr. 5'
   },
 ]
@@ -56,10 +56,10 @@ export const DungeonBastion = [
     idButton: 'healBastion'
   },
   {
-    label: 'Burn Bastion',
-    icon: <AiFillFire color='#f04005' size={24} />,
-    color: '#f04005',
-    idInput: 'tokenIdofBastionToBurn',
-    idButton: 'burnBastion'
+    label: 'Check Bastion Health',
+    icon: <MdHealthAndSafety color='#1dcc1b' size={24} />,
+    color: '#1dcc1b',
+    idInput: 'checkBastionHealth',
+    idButton: 'checkBastionHealthID'
   },
 ]
