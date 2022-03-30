@@ -8,7 +8,7 @@ function Checking() {
     <section id='checking'>
       <div className="checking__text">
         <span className='checking-text'></span>
-        <h4 className="intruction-mint">
+        <h4 className="instruction-mint">
         CHECK MY NFT: Here you can review all your NFT'S. They'll show up as a list, with teir current stats.
         <br />
         To select the NFT to check, you must go back to the "Mint section" and click either "Inquisitor" or "banners" to use the "Check my NFT'S" button
