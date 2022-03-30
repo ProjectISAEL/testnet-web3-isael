@@ -22,7 +22,8 @@ function Main () {
       <div className='app__text'>
         <span className='image-text'></span>
         <h4 className='instruction-mint'>
-          IN ORDER TO BUY NFT'S YOU WILL NEED TO APPROVE THE REQUESTED AMOUNT OF USDT IN YOUR WALLET
+          First you have to click "Aprove USDT", 2 transanction will follow.<br />
+	Once aproved, you should be ready to mint. Select Inquisitor or banner, the amount of boxes and click mint (red button).
         </h4>
       </div>
 
