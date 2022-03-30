@@ -50,7 +50,6 @@ export const BastionFooter = () => {
             <Input id={items.id} label={items.label} key={i} />
           ))}
           <MainButton id='mintBastion' text='Mint Bastion' color='rgb(225 15 15)' icon={<BsBoxSeam color='rgb(225 15 15)' size={24} />} />
-	  <ReactTooltip data-id data-for='mintBastion'>First line. Add the token ID of the Inquisitors or Banners on their respective boxes, then just click "Mint Bastion"</ReactTooltip>
         </div>
 
         <div className='input__bastion'>
