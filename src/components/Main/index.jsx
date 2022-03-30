@@ -53,6 +53,8 @@ function Main () {
             icon={<BsBoxSeam size={24} color='rgb(225 15 15)' />}
             color='rgb(225 15 15)'
             onClick={toggle}
+	    data-tip
+	    data-for='mintTooltip'
           />
           <MainButton 
             id='ApproveUSDT'
