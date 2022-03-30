@@ -12,6 +12,16 @@ function Dungeon() {
       <div className='app__text-dungeon'>
         <span className='image-text'></span>
         <h4 className='head-text'>Attack Dungeon</h4>
+        <h4 className='instruction-mint'>
+        Here you can send the bastion to attack. Check status, and heal the bastion. 
+        <br />
+        To attack: Add the bastion ID, before the "Attack zone button". Select the Zone and creature. 
+        (Creature have HP points based on multiple of 100. Ex: "Zone A. Mob nmr 1= 100 Hp".  "Zone B. Mob nmr 1 500HP".
+        <br />
+        Check Bastion: Here u can check the HP of your bastion. Add the bastion ID at "Token ID" box, and cick "Heal bastion"
+        <br />
+        Heal Bastion: To heal your bastion, add the Add the bastion ID at "Token ID" box, click "Heal bastion" and confirm the transaction with Metamask, after that, the bastion will be healed. 
+        </h4>
       </div>
       <div className='app__dungeon'>
       <div className='dungeon'>

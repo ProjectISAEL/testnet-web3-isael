@@ -1,4 +1,3 @@
-import ReactTooltip from 'react-tooltip'
 import Input from "../../container/Input"
 import MainButton from '../Buttons/MainButton'
 import ImageBastion from '../../assets/banner/icon_bastion.png'
@@ -59,7 +58,6 @@ export const BastionFooter = () => {
             <Input id={items.id} label={items.label} key={i} />
           ))}
           <MainButton id='addBannersBTN' text='Add Banners' icon={<AiOutlineUserAdd color='#ff8e00' size={24} />} />
-	  <ReactTooltip data-id data-for='addBannersBTN'>To add more, inquisitors or banners to your current bastion. Add the Token ID of the Inquisitor (Add Banner box) or banner (Add Inquisitor Box). And the Bastion ID at the "Token ID" box.</ReactTooltip>
         </div>
 
         <div className='input__inquisitors'>
@@ -67,7 +65,6 @@ export const BastionFooter = () => {
             <Input id={items.id} label={items.label} key={i} />
           ))}
           <MainButton id='addInquisitorsBTN' text='Add Inquisitors' icon={<AiOutlineUserAdd color='#ff8e00' size={24} />} />
-	  <ReactTooltip data-id data-for='addInquisitorsBTN'>To add more, inquisitors or banners to your current bastion. Add the Token ID of the Inquisitor (Add Banner box) or banner (Add Inquisitor Box). And the Bastion ID at the "Token ID" box.</ReactTooltip>
         </div>
 
         <div className='input__health'>
@@ -78,7 +75,6 @@ export const BastionFooter = () => {
 	          text='Burn Bastion' 
 	          icon={<AiFillFire color='#f04005' size={24} />}
             />
-	 <ReactTooltip data-id data-for='burnBastion'>To burn a bastion, Put the ID at the "Token Bastion" and click "Burn Bastion"</ReactTooltip>
         </div>
       </div>
   </div>
